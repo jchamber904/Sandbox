@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "0.12"
+deploy:
+  provider: script
+  script: npm install; ./.bin/deploy_to_bluemix.sh
+  on:
+    branch: master

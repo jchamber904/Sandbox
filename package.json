@@ -1,0 +1,29 @@
+{
+  "name": "projects-using-waffle",
+  "description": "List of projects using Waffle",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "config": "^1.16.0",
+    "express": "3.x",
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "start": "gulp server",
+    "test": "gulp test",
+    "integration": "gulp integration"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp-htmllint": "0.0.5",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jscs": "^1.5.2",
+    "gulp-jshint": "^1.10.0",
+    "gulp-mocha": "^2.1.3",
+    "gulp-scss-lint": "^0.1.12",
+    "gulp-webdriver": "^1.0.1",
+    "jshint-stylish": "^2.0.1",
+    "supertest": "^1.0.1",
+    "tiny-lr": "^0.1.5"
+  }
+}

@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "0.12"
+env:
+  - NODE_APP_INSTANCE=hello-dleigh
+  - NODE_APP_INSTANCE=goodbye-dleigh
+deploy:
+  provider: script
+  script: npm install; ./.bin/deploy_to_bluemix.sh
+  on:
+    branch: master
