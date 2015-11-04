@@ -5,4 +5,4 @@ var config = {
 
 module.exports = config;
 
-console.log('Starting server...');
+console.log("Starting server...");
