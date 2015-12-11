@@ -1,6 +1,6 @@
 var config = {
-    response : "Hello, world! This is a demo app.",
-    port : process.env.PORT || process.env.VCAP_APP_PORT || 3000
+    response : "Congratulations! You have reached pages.github.ibm.com.",
+    port : process.env.PORT || process.env.VCAP_APP_PORT || 443
 };
 
 module.exports = config;
