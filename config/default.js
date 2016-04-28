@@ -1,5 +1,3 @@
-// 
-//
 //
 var config = {
     response : "Congratulations! You have reached pages.github.ibm.com.",
