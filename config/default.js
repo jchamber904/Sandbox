@@ -1,3 +1,4 @@
+//
 var config = {
     response : "Congratulations! You have reached pages.github.ibm.com.",
     port : process.env.PORT || process.env.VCAP_APP_PORT || 443
