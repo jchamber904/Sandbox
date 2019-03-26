@@ -1,0 +1,17 @@
+dist: xenial
+
+language: scala
+
+jdk: oraclejdk8
+
+cache:
+  directories:
+    - $HOME/.ivy2
+
+addons:
+  apt:
+    packages:
+      - xmlstarlet
+
+script:
+    - ./build.sh
