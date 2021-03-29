@@ -33,10 +33,10 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
+          echo test, and deploy your project.
           
       # Version
       - name: Version check
         run: |
           cat /etc/os-release
           
-          echo test, and deploy your project.
